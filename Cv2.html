@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>C.V</title>
+
+    <link rel="icon" type="image/x-icon" href="CSS/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/37e8242442.js" crossorigin="anonymous"></script>
+   
+ 
+</head>
+<body>
+    
+<header>
+    <div class="container text-center">
+        <h1>CV: Baez Marianela</h1>
+        <button class="button1" onclick="myFunction5()"> <p>Foto de perfil</p></button> 
+    
+        <div id="fg">
+            <img src="foto_de_cv.jpg" alt="Foto de perfil" style="width:200px;height: 200px;" class="mx-auto d-block">
+        </div>
+        
+    </div>
+    <script>
+        function myFunction5() {
+          let x = document.getElementById('fg');
+          if (x.style.display === 'none' ) {
+            x.style.display = 'block';
+          } else {
+            x.style.display = 'none';
+          }
+        }
+        </script>
+</header>
+
+
+<div class="row">
+
+    <div class= "col-4 " >
+
+        <h2>Información personal</h2>
+
+    <button class="button" onclick="myFunction()"><i class="fa-sharp fa-solid fa-person-dress fa-2xl" ></i></button> 
+
+
+<div id="marIa">
+    <div class="col-4">
+
+    <p> 
+    Edad: 31 años <br>
+    Localidad: Río Cuarto.<br>
+    Departamento: Río Cuarto.<br>
+    Provincia: Córdoba.<br>
+    Nacionalidad: Argentina.</p>
+
+  </div>
+
+  </div>
+  
+</div>
+
+  <script>
+    function myFunction() {
+      let x = document.getElementById('marIa');
+      if (x.style.display === 'none' ) {
+        x.style.display = 'block';
+      } else {
+        x.style.display = 'none';
+      }
+    }
+    </script>
+
+
+<div class="col-4">
+    <h2>Estudios cursados</h2>
+
+    <button class="button" onclick="myFunction1()"><i class="fa-solid fa-book fa-2xl"></i></button> 
+
+<div id="Sm">
+    <p>Profesorado en Educación Primaria Finalizado 2017.<br>
+    Escuela Normal Superior Justo José de Urquiza. </p>
+</div>
+    
+
+
+ </div>
+
+ <script>function myFunction1() {
+    let x = document.getElementById('Sm');
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  }</script>
+
+ 
+
+
+
+
+<div class="col-4"> 
+
+     <h2>Experiencia laboral</h2>
+    
+    <button class="button" onclick="myFunction2()"><i class="fa-solid fa-paperclip fa-2xl"></i></button> 
+
+    <div id="Jm">
+        <p>Instituto San Buenaventura. <br>
+            Cargo: Docente titular Nivel Primario <br>
+            Período: febrero 2019 a la actualidad. <br>
+    </div>
+   
+</div>
+
+<script>function myFunction2() {
+    let x = document.getElementById('Jm');
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  }</script>
+
+
+<footer>
+    <div class="container text-center">
+
+        
+        <h2>Perfil laboral</h2>
+        <button class="button" onclick="myFunction3()"><i class="fa-sharp fa-solid fa-comments fa-2xl"></i></button> 
+
+<div id="Am">
+    <p>
+        Soy una persona responsable, dinámica, creativa con facilidades para las relaciones sociales o vínculos. <br>
+        Puedo desarrollar diferentes actividades en distintas áreas de una institución educativa. <br>
+        Poseo habilidad para trabajar en equipo y de manera individual. <br>
+        Así también, tengo la capacidad de idear o planificar proyectos integrados. <br>
+        Estoy dispuesta a seguir aprendiendo, a seguir formándome en las distintas áreas de la educación.
+    </p>
+</div>
+    </div>
+ </footer>
+ <script>function myFunction3() {
+    let x = document.getElementById('Am');
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  }</script>
+
+
+</body>
+</html>
